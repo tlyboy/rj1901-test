@@ -12,8 +12,9 @@ a {
 }
 
 body {
-  font-family: Noto Sans SC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
 }
 
 body::before {
@@ -21,11 +22,10 @@ body::before {
   position: fixed;
   z-index: -1;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  background: center no-repeat
-    url('https://cdn.jsdelivr.net/gh/tlyboy/assets/img/bg/10.jpg');
+  bottom: 0;
+  right: 0;
+  background: center no-repeat url('../img/bg.jpg');
   background-size: cover;
 }
 
