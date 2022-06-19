@@ -49,8 +49,8 @@ header ul li a {
   line-height: 30px;
   text-decoration: none;
   font-size: 18px;
-  color: #ecf0f1;
-  text-shadow: 1px 1px 2px #2c3e50;
+  color: var(--color);
+  text-shadow: 1px 1px 2px var(--background);
 }
 
 header ul li a::after {
@@ -61,7 +61,7 @@ header ul li a::after {
   width: 0%;
   height: 3px;
   border-radius: 1.5px;
-  background-color: #e67e22;
+  background: #e67e22;
   transition: left 0.3s, width 0.3s;
 }
 
@@ -71,11 +71,11 @@ header ul li a:hover::after {
 }
 
 .text {
-  color: #ecf0f1;
-  font-size: 20px;
-  white-space: nowrap;
   overflow: hidden;
-  text-shadow: 1px 1px 2px #2c3e50;
+  white-space: nowrap;
+  font-size: 20px;
+  color: var(--color);
+  text-shadow: 1px 1px 2px var(--background);
   animation: text 4s steps(17) infinite;
 }
 
