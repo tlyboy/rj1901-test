@@ -1,8 +1,3 @@
-:root {
-  --color: #ecf0f1;
-  --background: #2c3e50;
-}
-
 *,
 ::before,
 ::after {
@@ -14,13 +9,28 @@
   -webkit-touch-callout: none;
 }
 
+:root {
+  --t-white: #ecf0f1;
+  --t-black: #1a1a1a;
+}
+
+:root {
+  --t-box-shadow: 0 0 3px 1px rgba(26, 26, 26, 0.3);
+  --t-text-shadow: 0 3px 1px rgba(26, 26, 26, 0.3);
+}
+
+:root {
+  --t-text: var(--t-white);
+  --t-bg: var(--t-black);
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: var(--color);
+  color: var(--t-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
